@@ -1,0 +1,380 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transit-Home</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/style3.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Transit</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mycollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mycollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link act">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="listing.html" class="nav-link">Car Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav-btn"><a href="listing.html" class="book">Book a Ride</a></button>
+            </div>
+        </div>
+    </nav>
+    <div class="hero">
+        <h1>Transit<span class="change">Car Rental</span></h1>
+        <h1>In Nigeria</h1>
+        <p class="hero-write">Unlock your adventure with our reliable and affordable car rental in Nigeria. If you are
+            visiting any state in Nigeria, we got</p>
+        <p class="hero-write">you covered with our exceptional car rental services. Start exploring today!</p>
+        <button class="view"><a href="listing.html" class="hero-btn">View our cars</a></button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 select">
+                <label for="cars" class="label">Select location</label>
+                <select name="" id="select">
+                    <option value="Imo">Imo</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Abia">Abia</option>
+                </select>
+            </div>
+            <div class="col-md-6 select">
+                <button class="nav-btn label-btn submit">Select</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 hire">
+                <h2 class="hire-head">How it works - Car hire in Nigeria?</h2>
+                <span class="fa fa-wifi"></span>
+                <p class="hire-write">Easy as 1-2-3: Hire a car with us and Enjoy a hassle-</p>
+                <p class="hire-write">free journey.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row row-first">
+            <div class="col-md-4 item">
+                <span class="fa fa-map-marker-alt"></span>
+                <h3>1. Choose Locations</h3>
+                <p>Select the perfect spot for your car rental—whether it's airport car rental for convenience, a
+                    downtown location for urban exploration, or car hire near me close to your accommodation. Begin your
+                    journey with us!</p>
+            </div>
+            <div class="col-md-4 item">
+                <span class="fa fa-street-view"> </span>
+                <h3>2. View Available Cars</h3>
+                <p>Explore our vehicle selection, from compacts to SUVs, to discover your ideal ride for the journey
+                    ahead.</p>
+            </div>
+            <div class="col-md-4 item">
+                <span class="fa fa-car"></span>
+                <h3>3. Book your Car</h3>
+                <p>Effortlessly secure your ride with a simple online reservation. Choose your dates, customize with
+                    extras, and confirm your booking securely.</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container-fluid explore-div">
+        <div class="row">
+            <div class="col-md-12 pt-5 explore">
+                <h2 class="explore-head">Explore Our Cars</h2>
+                <p class="explore-write">Explore a range of car options, from compact to luxury, tailored to your travel
+                    preferences with our luxury car rental services.</p>
+            </div>
+        </div> -->
+        <!-- <div class="row mt-3 car-row">
+            <div class="col-md-3 car">
+                <img src="dist/img/corola.jpg" alt="Mercedes Benz">
+                <div class="car-title">Corola</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <button class="car-btn"><a href="listing.html" class="rent">Book Now</a></button>
+            </div>
+            <div class="col-md-3 car">
+                <img src="dist/img/FORD explorer.jpg" alt="Mercedes Benz">
+                <div class="car-title">Ford Explorer Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <button class="car-btn"><a href="listing.html" class="rent">Book Now</a></button>
+            </div>
+            <div class="col-md-3 car">
+                <img src="dist/img/Honda CRV.jpg" alt="Mercedes Benz">
+                <div class="car-title">Honda CRV Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <button class="car-btn"><a href="listing.html" class="rent">Book Now</a></button>
+            </div>
+        </div>
+        <div class="row mt-3 car-row">
+            <div class="col-md-3 car">
+                <img src="dist/img/lexus is.jpg" alt="Mercedes Benz">
+                <div class="car-title">Lexus</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <button class="car-btn"><a href="listing.html" class="rent">Book Now</a></button>
+            </div>
+            <div class="col-md-3 car">
+                <img src="dist/img/mecerdese es 350.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <button class="car-btn"><a href="listing.html" class="rent">Book Now</a></button>
+            </div>
+            <div class="col-md-3 car">
+                <img src="dist/img/bmwx5.jpg" alt="Mercedes Benz">
+                <div class="car-title">BMW Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <button class="car-btn"><a href="listing.html" class="rent">Book Now</a></button>
+            </div>
+        </div>
+    </div> -->
+    <div class="container-fluid center">
+        <div class="row">
+            <div class="col-md-6 center-first">
+                <h2>Our Care Standard</h2>
+                <p>At Transit Rent a Car, we prioritize your safety, comfort, and convenience. Our vehicles undergo
+                    rigorous maintenance checks and cleaning procedures to ensure every ride is worry-free. From
+                    seamless booking to reliable customer support, we're committed to delivering a superior rental
+                    experience.</p>
+                <button class="center-btn"><a href="about.html">Learn More</a></button>
+            </div>
+            <div class="col-md-6 center-second">
+                <h2>Transit: Freedom at Your Fingertips</h2>
+                <p>Experience the ultimate flexibility with our Transit feature. Choose from a wide range of vehicles,
+                    plan your journey at your pace, and enjoy complete control over your travel experience. Whether for
+                    a quick errand or an extended road trip, Transit puts the keys in your hands.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-12 why">
+                <h2 class="why-head">Why Choose Our Car Rental Services?</h2>
+                <span class="fa fa-wifi"></span>
+                <p class="why-write">Opt for us for affordable car rental, a wide fleet, convenient locations, quality
+                    service,</p>
+                <p class="why-write"> and safety in your car booking experience.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-3">
+        <div class="row why-first">
+            <div class="col-md-4 whitem">
+                <span class="fa fa-pen-alt one"></span>
+                <h3>Easy & Fast Booking</h3>
+                <p>Experience effortless and swift booking for a seamless journey with our car rental service.</p>
+            </div>
+            <div class="col-md-4 whitem">
+                <span class="fa fa-map-marker-alt two"></span>
+                <h3>Many Pickup Location</h3>
+                <p>Explore our numerous convenient pick-up locations, making your experience hassle-free.</p>
+            </div>
+            <div class="col-md-4 whitem">
+                <span class="fa fa-smile three"></span>
+                <h3>Customer Satisfaction</h3>
+                <p>Our top priority is ensuring your complete satisfaction, making every journey exceptional.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pt-5 review">
+        <div class="row rev-row">
+            <div class="col-md-12">
+                <h2 class="rev-head">What People say about us?</h2>
+                <span class="fa fa-wifi"></span>
+                <p class="rev-write">Discover what our valued customers have to say</p>
+                <p class="rev-write">about their experiences with us.</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <di class="col-md-12">
+                <div class="carousel slide" id="mycarousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <span class="fa fa-quote-right"></span><br>
+                            <p class="test">Emily</p>
+                            <P class="rev-write">"Transportation provided by transit is exceptional they ensure you</P>
+                            <p class="rev-write">arrive confortably and
+                                on time. A
+                                top notch service"</p>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="fa fa-quote-right"></span><br>
+                            <p class="test">Sophia</p>
+                            <p class="rev-write">"I have had a wonderful experience with Transit, their attention is
+                                detialed</p>
+                            <p class="rev-write">and customer
+                                satisfaction commendable"</p>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="fa fa-quote-right"></span><br>
+                            <p class="test">Michael Johnson</p>
+                            <p class="rev-write">"Transit is mu go-go for all transport needs their variety of serices
+                                cater to every</p>
+                            <p class="rev-write"> requirement and
+                                quality is consistently excelent"</p>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="fa fa-quote-right"></span><br>
+                            <p class="test">Nicholas</p>
+                            <p class="rev-write">"Transit made my daily communication stress free and convienent. </p>
+                            <p class="rev-write">Their proffesionalism and puntuality
+                                are unmatched"</p>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="fa fa-quote-right"></span><br>
+                            <p class="test">David Lee</p>
+                            <p class="rev-write">"Using Transit for my travels has been a breeze,alwys on time</p>
+                            <p class="rev-write"> and freindly services i trust them for
+                                all my travel needs"</p>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" data-bs-target="#mycarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+
+                    <button class="carousel-control-next" data-bs-target="#mycarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </di>
+        </div>
+    </div>
+    <div class="container-fluid drop">
+        <div class="row">
+            <div class="col-md-12 why">
+                <h2 class="why-head">Frequently asked questions</h2>
+                <span class="fa fa-wifi"></span>
+                <p class="why-write">Find answers to common queries about our car rental</p>
+                <p class="why-write">service and make informed decisions.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 dropdown">
+                <h5 class="dropdown-toggle" data-bs-toggle="dropdown">Does our car rental travel to all state in nigeria
+                </h5>
+                <div class="dropdown-menu">
+                    <p class="dropdown-item">Yes, Our car rental company provide tailored solutions with a range of</p>
+                    <p class="dropdown-item">vehicles to suit your needs, ensuring a smooth journey
+                        wherever you're headed.</p>
+                </div>
+            </div>
+            <div class="col-md-6 dropdown">
+                <h5 class="dropdown-toggle" data-bs-toggle="dropdown">Does the car come with fuel?</h5>
+                <div class="dropdown-menu">
+                    <p class="dropdown-item">No, it doesn't. Our Clients fuels the vechicle except on special
+                    <p>
+                    <p class="drpdown-item">requests
+                        where client ask Xclusive cars to fuel which is added to rental fees.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 dropdown">
+                <h5 class="dropdown-toggle" data-bs-toggle="dropdown">Will i get a refund when i cancel reservations?
+                </h5>
+                <div class="dropdown-menu">
+                    <p class="dropdown-item">Kindly, note that no refund after reservation.</p>
+                </div>
+            </div>
+            <div class="col-md-6 dropdown">
+                <h5 class="dropdown-toggle" data-bs-toggle="dropdown">Can i register my car with your company?</h5>
+                <div class="dropdown-menu">
+                    <p class="dropdown-item">Yes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+             
+                <div class="footer-col">
+                    <h2 class="logo">TRANSIT</h2>
+                    <p>Your trusted Car listing hub, connecting you to the best deals worldwide.</p>
+                    <ul class="contact-info">
+                        <li><i class="icon">📞</i> +1 234 567 890</li>
+                        <li><i class="icon">📍</i> 123 Mouka Street, Online Market</li>
+                        <li><i class="icon">✉️</i> support@affilix.com</li>
+                    </ul>
+                </div>
+    
+              
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <!-- <li><a href="#">Affiliate Programs</a></li> -->
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+    
+                
+                <div class="footer-col">
+                    <h3>Support Center</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <!-- <li><a href="#">Affiliate Dashboard</a></li> -->
+                        <li><a href="#">Earnings & Payments</a></li>
+                        <li><a href="#">Report an Issue</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+       
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get the latest Car listing tips & offers.</p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+    
+        
+            <div class="footer-bottom">
+                <p>© 2025 TRANSIT. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="icon">🔵</i></a>
+                    <a href="#"><i class="icon">🔶</i></a>
+                    <a href="#"><i class="icon">⚫</i></a>
+                    <a href="#"><i class="icon">⚪</i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="dist/js/all.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</html>

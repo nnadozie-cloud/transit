@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="" class="navbar-brand">Transit</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mycollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mycollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="listing.html" class="nav-link">Car Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav-btn"><a href="" class="book">Book a Ride</a></button>
+            </div>
+        </div>
+    </nav>
+    <div class="hero hero2">
+        <h2 class="second-nav">Booking</h2>
+        <a href="index.html">Home</a> /
+         <a href="listing.html">
+            <i class="act">Booking</i>
+         </a>
+    </div>
+    <div class="container book-cont">
+        <div class="row">
+            <div class="col-md-6 select">
+                <label for="cars" class="label">Select location</label>
+                <select name="" id="select">
+                    <option value="Imo">Imo</option>
+                    <option value="Lagos">Lagos</option>
+                    <option value="Enugu">Enugu</option>
+                    <option value="Anambra">Anambra</option>
+                    <option value="Abia">Abia</option>
+                </select>
+            </div>
+            <div class="col-md-6 select">
+                <button class="nav-btn label-btn submit">Select</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="booking-form" id="book">
+        <div class="row reviews">
+            <div class="col-md-12">
+                <h2 class="rev-head">Reserve your car</h2>
+                <span class="fa fa-wifi"></span>
+            </div>
+        <form action="" id="rental-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="s" required><br>
+
+            <label for="cars">Select Car</label>
+            <select name="" id="car">
+                <option value="Toyota Corola">Corola</option>
+                <option value="Toyota camry">lexus</option>
+                <option value="Toyota camry">Mercedes</option>
+                <option value="Toyota camry">Ferari</option>
+                <option value="Toyota camry">Bmw</option>
+            </select><br>
+            <label for="date">Pick UP Date:</label>
+            <input type="date" id="date" required><br>
+            <label for="date">Return Date:</label>
+            <input type="date" id="date" required>
+            <button type="submit" class="book-btn">Book now</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+             
+                <div class="footer-col">
+                    <h2 class="logo">TRANSIT</h2>
+                    <p>Your trusted Car listing hub, connecting you to the best deals worldwide.</p>
+                    <ul class="contact-info">
+                        <li><i class="icon">📞</i> +1 234 567 890</li>
+                        <li><i class="icon">📍</i> 123 Mouka Street, Online Market</li>
+                        <li><i class="icon">✉️</i> support@affilix.com</li>
+                    </ul>
+                </div>
+    
+              
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <!-- <li><a href="#">Affiliate Programs</a></li> -->
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+    
+                
+                <div class="footer-col">
+                    <h3>Support Center</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <!-- <li><a href="#">Affiliate Dashboard</a></li> -->
+                        <li><a href="#">Earnings & Payments</a></li>
+                        <li><a href="#">Report an Issue</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+       
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get the latest Car listing tips & offers.</p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+    
+        
+            <div class="footer-bottom">
+                <p>© 2025 TRANSIT. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="icon">🔵</i></a>
+                    <a href="#"><i class="icon">🔶</i></a>
+                    <a href="#"><i class="icon">⚫</i></a>
+                    <a href="#"><i class="icon">⚪</i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="dist/js/all.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+</html>

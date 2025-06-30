@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Listing Section</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/style3.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Transit</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mycollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="mycollapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="listing.html" class="nav-link act">Car Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <button class="nav-btn"><a href="book.html" class="book">Book a Ride</a></button>
+            </div>
+        </div>
+    </nav>
+    <div class="hero hero2">
+        <h2 class="second-nav">Car Listing</h2>
+        <a href="home.html">Home</a> /
+        <a href="about.html">
+            <i class="act">Car Listing</i>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <div class="container-list">
+
+            <div class="search-box">
+                <input type="text" placeholder="Search">
+                <button>&#128269;</button>
+            </div>
+            <div class="results-info">
+                <strong>Showing 1-10 of 50 Results</strong>
+            </div>
+            <div class="view-toggle">
+                <button class="active">&#x25A6;</button>
+                <button>&#9776;</button>
+            </div>
+
+            <div class="sort-dropdown">
+                <select>
+                    <option>Sort By Default</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest Listings</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid contain">
+        <div class="filter-box">
+            <h3 class="filter-title">Brands</h3>
+            <label class="checkbox-container">
+                <input type="checkbox"> All Brands
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox"> BMW
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container checked">
+                <input type="checkbox" checked> Toyota
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox"> Ferrari
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container checked">
+                <input type="checkbox" checked> Audi
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox"> Tesla
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox"> Mercedes
+                <span class="checkmark"></span>
+            </label>
+            <label class="checkbox-container">
+                <input type="checkbox"> Hyundai
+                <span class="checkmark"></span>
+            </label>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 car-card">
+                <img src="img/06.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/07.jpg" alt="Yellow Ferrari">
+                <div class="car-title">Yellow Ferrari 458</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$90,250</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/08.jpg" alt="Black Audi Q7">
+                <div class="car-title">Black Audi Q7</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$44,350</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="dist/img/mecerdese es 350.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 car-card">
+                <img src="img/06.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="dist/img/mecerdese es 350.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/07.jpg" alt="Yellow Ferrari">
+                <div class="car-title">Yellow Ferrari 458</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$90,250</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/08.jpg" alt="Black Audi Q7">
+                <div class="car-title">Black Audi Q7</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$44,350</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 car-card">
+                <img src="img/06.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/07.jpg" alt="Yellow Ferrari">
+                <div class="car-title">Yellow Ferrari 458</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$90,250</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/08.jpg" alt="Black Audi Q7">
+                <div class="car-title">Black Audi Q7</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$44,350</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="dist/img/mecerdese es 350.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 car-card">
+                <img src="img/06.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/07.jpg" alt="Yellow Ferrari">
+                <div class="car-title">Yellow Ferrari 458</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$90,250</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/08.jpg" alt="Black Audi Q7">
+                <div class="car-title">Black Audi Q7</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$44,350</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="dist/img/mecerdese es 350.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-3 car-card">
+                <img src="img/06.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/07.jpg" alt="Yellow Ferrari">
+                <div class="car-title">Yellow Ferrari 458</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$90,250</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="img/08.jpg" alt="Black Audi Q7">
+                <div class="car-title">Black Audi Q7</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$44,350</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+            <div class="col-md-3 car-card">
+                <img src="dist/img/mecerdese es 350.jpg" alt="Mercedes Benz">
+                <div class="car-title">Mercedes Benz Car</div>
+                <div class="rating">⭐⭐⭐⭐⭐ 5.0 (58.5k Reviews)</div>
+                <div class="features">Automatic • 10.15km / 1-litre • Model: 2024 • Hybrid</div>
+                <div class="car-price">$45,620</div>
+                <div class="details-button"><a href="book.html" class="rent">🔍 Rent Now</a></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+             
+                <div class="footer-col">
+                    <h2 class="logo">TRANSIT</h2>
+                    <p>Your trusted Car listing hub, connecting you to the best deals worldwide.</p>
+                    <ul class="contact-info">
+                        <li><i class="icon">📞</i> +1 234 567 890</li>
+                        <li><i class="icon">📍</i> 123 Mouka Street, Online Market</li>
+                        <li><i class="icon">✉️</i> support@affilix.com</li>
+                    </ul>
+                </div>
+    
+              
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <!-- <li><a href="#">Affiliate Programs</a></li> -->
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+    
+                
+                <div class="footer-col">
+                    <h3>Support Center</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <!-- <li><a href="#">Affiliate Dashboard</a></li> -->
+                        <li><a href="#">Earnings & Payments</a></li>
+                        <li><a href="#">Report an Issue</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+       
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get the latest Car listing tips & offers.</p>
+                    <form action="#" method="post">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+    
+        
+            <div class="footer-bottom">
+                <p>© 2025 TRANSIT. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="icon">🔵</i></a>
+                    <a href="#"><i class="icon">🔶</i></a>
+                    <a href="#"><i class="icon">⚫</i></a>
+                    <a href="#"><i class="icon">⚪</i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+</html>
